@@ -3,9 +3,7 @@
 ## Module 2 Challenge Assignment
 
 ## My First Portfolio
-
-
-## This app will serve as a landing page for what will become my e-business card with my portfolio.
+This site will serve as a landing page for what will become my e-business card with my portfolio.
 
 ## Built With
 * HTML
