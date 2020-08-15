@@ -1,10 +1,15 @@
 # WorkingPanda
 
-# Module 2 Challenge Assignment
+## Module 2 Challenge Assignment
 
-# My First Portfolio
-
-# This app will serve as a landing page for what will become my e-business card with my portfolio.
+## My First Portfolio
 
 
-# https://codingpanda224.github.io/WorkingPanda/ 
+## This app will serve as a landing page for what will become my e-business card with my portfolio.
+
+## Built With
+* HTML
+* CSS
+
+## Website 
+https://codingpanda224.github.io/WorkingPanda/ 

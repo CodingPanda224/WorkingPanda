@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header Styling*/
+header {
+    padding: 15px ;
+    font-family: 'Franklin Gothic Booth';
+    color: white;
+    background-color: darkblue;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+header a {
+    color: purple;
+}
+
+header nav {
+    margin-top: 10px;
+    float: right;
+    
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+     margin: 0 30px;
+}
+
+/* END HEADER STYLING*/
+
+    body {
+        background-color: #6E0070;
+    }
+
+
+  .hero {
+    background-image: url("./images/hero.jpg");
+    height: 480px;
+    
+    background-position: center;
+  }
+
+  .hero-sub {
+      position: absolute;
+
+  }
+
+  /* Styling About me Section*/
+
+  .subtitle {
+      
+    margin-top: 40px;
+    
+    display: flex;
+    text-align: right;
+  }
+
+  .subtitle h2 {   
+      width: 150px;
+      font-size: 40px;
+      color: white;
+      padding: 0 15px 10px 100px;
+      border-right: 3px solid;
+      border-color: #000000;
+      text-align: right;
+
+     
+  }
+
+  .subtitle p {
+    text-align: left;
+    line-height: 1;
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+            /*End About me section*/
+
+
+
+            /* Styling Work Section*/
+
+
+            /*End Work section*/
+
+
+
+
+            /*Styling Contact Me Section*/
+
+    .contact {
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    text-align: right;
+    }
+            
+    .contact h2 {   
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;
+    border-right: 3px solid;
+    border-color: #000000;
+    text-align: right;            
+    }
+
+    .contacts ul {
+        width: 100%;
+        background-color: teal;
+        margin-top: 40px;
+    }
+
+   .contacts ul li {
+    display: inline;
+    text-decoration: underline;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    
+  }
