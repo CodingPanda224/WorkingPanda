@@ -1,38 +1,42 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 
 /* Header Styling*/
 header {
-    padding: 15px ;
-    font-family: 'Franklin Gothic Booth';
-    color: white;
-    background-color: darkblue;
+  padding: 15px 6% 15px 0;
+  color: darkblue;
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 header h1 {
-    margin: 0;
-    display: inline;
+  background-color: white;
+  padding: 5px 1% 5px 5%
+  
 }
+
 header a {
-    color: purple;
+  color: violet;
 }
 
 header nav {
-    margin-top: 10px;
-    float: right;
-    
-}
-header nav ul li {
-    display: inline;
-}
-header nav ul li a {
-     margin: 0 30px;
+  display: inline;
+    font-size: 25px;
+    margin-right: 4%; 
 }
 
+header nav li {
+  display: inline;
+}
+
+
 /* END HEADER STYLING*/
+
 
     body {
         background-color: #6E0070;
@@ -40,91 +44,109 @@ header nav ul li a {
 
 
   .hero {
-    background-image: url("./images/hero.jpg");
-    height: 480px;
-    
+      display: flex;
+    background-image: url("./images/IMG_1753.jpg");
+    height: 500px;
+    background-size: cover;
     background-position: center;
   }
 
-  .hero-sub {
-      position: absolute;
+      /* Begin About me Styling */
 
+  .label-box {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    margin-top: 25px;
   }
 
-  /* Styling About me Section*/
+  .label-box p {
+    padding-left: 20px;
+  }
 
-  .subtitle {
-      
-    margin-top: 40px;
+  .about-me-container {
+    padding-left: 50px;
+    padding-right: 10px;
+    border-right: 3px solid black;
+  }
+  .about-me-text {
+    margin-left: 10px;
+    margin-right: 5%;
+    display:flex;
+  }
+
+   /* End About me Styling */
+
+
+      /* Work Grid Styling */
+
+  .work-container {
+    padding-left: 50px;
+    padding-right: 15px;
+    border-right: 3px solid black;
+   
+   
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    grid-auto-flow: dense;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 5%;
+  }
+      /* Grid Element styling */
+
+  .surf-report {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+    background-image: url('./images/IMG_1402.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+  }
+ 
+  .led-wall {
+    border: 3px solid black;
+    background-image: url('./images/IMG_0214.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .calculator{
+    border: 3px solid black;
+    background-image: url('./images/IMG_1381.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .pastel-puzzels {
+    border: 3px solid black;
+    background-image: url('./images/IMG_1027.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .run-buddy {
+    border: 3px solid black;
+    background-image: url('./images/IMG_1196.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+    /* End of Work Grid */
+
+    /*Styling Contact Me Section */
+
+.contact-me-container {
+    padding-left: 50px;
+    padding-right: 10px;
+    border-right: 3px solid black;
+    flex-wrap: wrap;
     
-    display: flex;
-    text-align: right;
   }
-
-  .subtitle h2 {   
-      width: 150px;
-      font-size: 40px;
-      color: white;
-      padding: 0 15px 10px 100px;
-      border-right: 3px solid;
-      border-color: #000000;
-      text-align: right;
-
-     
-  }
-
-  .subtitle p {
-    text-align: left;
-    line-height: 1;
-    color: white;
-    width: 60%;
-    font-size: 20px;
-    margin-left: 30px;
-  }
-  
-            /*End About me section*/
-
-
-
-            /* Styling Work Section*/
-
-
-            /*End Work section*/
-
-
-
-
-            /*Styling Contact Me Section*/
-
-    .contact {
-    height: 100px;
-    margin-top: 40px;
-    display: flex;
-    text-align: right;
-    }
-            
-    .contact h2 {   
-    width: 150px;
-    font-size: 40px;
-    color: white;
-    padding: 0 15px 10px 100px;
-    border-right: 3px solid;
-    border-color: #000000;
-    text-align: right;            
-    }
-
-    .contacts ul {
-        width: 100%;
-        background-color: teal;
-        margin-top: 40px;
-    }
-
-   .contacts ul li {
-    display: inline;
-    text-decoration: underline;
-    text-align: left;
-    color: white;
-    font-size: 20px;
-    margin-left: 30px;
+  .contact-links {
+    margin-left: 10px;
+    margin-right: 5%;
     
   }
