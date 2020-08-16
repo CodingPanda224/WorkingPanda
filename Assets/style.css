@@ -16,7 +16,7 @@ header {
 
 header h1 {
   background-color: white;
-  padding: 5px 1% 5px 5%
+  padding: 5px 1% 5px 0%;
   
 }
 
@@ -55,7 +55,6 @@ header nav li {
 
   .label-box {
     width: 100%;
-    background-color: red;
     display: flex;
     margin-top: 25px;
   }
@@ -70,6 +69,14 @@ header nav li {
     padding-right: 10px;
     border-right: 3px solid black;
   }
+  .about-me-container h2 {   
+    width: 120px;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;  
+    text-align: right;   
+    flex-wrap: wrap;         
+    }
   .about-me-text {
     margin-left: 10px;
     margin-right: 5%;
@@ -83,11 +90,21 @@ header nav li {
 
   .work-container {
     padding-left: 50px;
-    padding-right: 15px;
+    padding-right: 10px;
     border-right: 3px solid black;
+    margin-right:15px;
    
    
   }
+
+  .work-container h2 {   
+    width: 120px;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;  
+    text-align: right;   
+    flex-wrap: wrap;         
+    }
 
   .work-grid {
     display: grid;
@@ -96,7 +113,8 @@ header nav li {
     gap: 20px;
     grid-auto-flow: dense;
     width: 100%;
-    margin-left: 15px;
+   
+    
     margin-right: 5%;
   }
       /* Grid Element styling */
@@ -143,42 +161,26 @@ header nav li {
     padding-left: 50px;
     padding-right: 10px;
     border-right: 3px solid black;
-    flex-wrap: wrap;
-    
+
   }
+  
+  .contact-me-container h2 {   
+    width: 120px;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;  
+    text-align: right;   
+    flex-wrap: wrap;      
+    }
+
   .contact-links {
     margin-left: 10px;
     margin-right: 5%;
+    margin-top: 35px;
     
+   
   }
-
-
-  /*Styling Contact Me Section*/
-
-  .contact {
-    height: 100px;
-    margin-top: 40px;
-    display: flex;
-    text-align: right;
-    }
-            
-    .contact h2 {   
-    width: 150px;
-    font-size: 40px;
-    color: white;
-    padding: 0 15px 10px 100px;
-    border-right: 3px solid;
-    border-color: #000000;
-    text-align: right;   
-    flex-wrap: wrap;         
-    }
-
-    .contact {
-        width: 100%;
-        background-color: teal;
-        margin-top: 40px;
-    }
-
+  
    .contact-links li {
     display: inline;
     text-decoration: underline;
@@ -187,4 +189,6 @@ header nav li {
     font-size: 20px;
     margin-left: 30px;
     
+    
   }
+
