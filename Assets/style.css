@@ -61,6 +61,7 @@ header nav li {
   }
 
   .label-box p {
+    
     padding-left: 20px;
   }
 
@@ -148,5 +149,42 @@ header nav li {
   .contact-links {
     margin-left: 10px;
     margin-right: 5%;
+    
+  }
+
+
+  /*Styling Contact Me Section*/
+
+  .contact {
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    text-align: right;
+    }
+            
+    .contact h2 {   
+    width: 150px;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;
+    border-right: 3px solid;
+    border-color: #000000;
+    text-align: right;   
+    flex-wrap: wrap;         
+    }
+
+    .contact {
+        width: 100%;
+        background-color: teal;
+        margin-top: 40px;
+    }
+
+   .contact-links li {
+    display: inline;
+    text-decoration: underline;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
     
   }
