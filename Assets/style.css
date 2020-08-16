@@ -1,7 +1,10 @@
 * {
     margin: 0;
 }
-
+#wrap { 
+	width: 1500px; 
+	margin: 0 auto; 
+}
 
 /* Header Styling*/
 header {
@@ -15,13 +18,13 @@ header {
 }
 
 header h1 {
-  background-color: white;
-  padding: 5px 1% 5px 0%;
+  background-color: #6E0070;
+  padding: 5px 1% 5px 25px;
   
 }
 
 header a {
-  color: violet;
+  color: #6E0070;
 }
 
 header nav {
@@ -95,6 +98,7 @@ header nav li {
     margin-right:15px;
    
    
+   
   }
 
   .work-container h2 {   
@@ -126,6 +130,7 @@ header nav li {
     background-size: cover;
     background-position: center;
     border: 3px solid black;
+
   }
  
   .led-wall {
@@ -155,6 +160,9 @@ header nav li {
 
     /* End of Work Grid */
 
+
+
+
     /*Styling Contact Me Section */
 
 .contact-me-container {
@@ -177,18 +185,19 @@ header nav li {
     margin-left: 10px;
     margin-right: 5%;
     margin-top: 35px;
-    
-   
+
   }
   
    .contact-links li {
     display: inline;
-    text-decoration: underline;
-    text-align: left;
-    color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 30px;
-    
-    
+    border-bottom: 3px solid darkblue;
+      
   }
 
+.contact-links li a {
+  text-decoration: none;
+  color: white;
+  
+}
