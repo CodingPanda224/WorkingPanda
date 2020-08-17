@@ -1,10 +1,8 @@
 * {
     margin: 0;
 }
-#wrap { 
-	width: 1080px; 
-	margin: 0 auto; 
-}
+
+
 
 /* Header Styling*/
 header {
@@ -53,6 +51,17 @@ header nav li {
     background-size: cover;
     background-position: center;
   }
+
+  .subtitle {
+    font-size: 30px;
+    margin-left: 60%;
+    margin-top: 425px;
+    margin-bottom: 20px;
+    background-color: gray;
+    opacity: 60%;
+    
+  }
+
 
       /* Begin About me Styling */
 
@@ -112,14 +121,14 @@ header nav li {
 
   .work-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: (3,30%);
     gap: 20px;
     grid-auto-flow: dense;
     width: 100%;
    
     
-    margin-right: 5%;
+    margin-right: 10px;
   }
       /* Grid Element styling */
 
@@ -130,8 +139,22 @@ header nav li {
     background-size: cover;
     background-position: center;
     border: 3px solid black;
+    
+
 
   }
+
+  .surf-report a {
+    background-color: black;
+    color: white;
+    margin-top: 70%;
+    margin-bottom: 100%;
+    grid-row: 3;
+    text-decoration: none;
+    margin-right: 70px;
+    
+  }
+
  
   .led-wall {
     border: 3px solid black;
@@ -139,11 +162,27 @@ header nav li {
     background-size: cover;
     background-position: center;
   }
+  .led-wall a {
+    background-color: black;
+    color: white;
+    margin-bottom: 100%;
+    grid-row: 3;
+    text-decoration: none;
+    
+  }
   .calculator{
     border: 3px solid black;
     background-image: url('./images/IMG_1381.jpg');
     background-size: cover;
     background-position: center;
+  }
+  .calculator a {
+    background-color: black;
+    color: white;
+    margin-bottom: 100%;
+    grid-row: 3;
+    text-decoration: none;
+    
   }
   .pastel-puzzels {
     border: 3px solid black;
@@ -151,11 +190,26 @@ header nav li {
     background-size: cover;
     background-position: center;
   }
+  .pastel-puzzels a {
+    background-color: black;
+    color: white;
+    margin-bottom: 100%;
+    grid-row: 3;
+    text-decoration: none;
+  }
   .run-buddy {
     border: 3px solid black;
     background-image: url('./images/IMG_1196.jpg');
     background-size: cover;
     background-position: center;
+  }
+  .run-buddy a {
+    background-color: black;
+    color: white;
+    margin-bottom: 100%;
+    grid-row: 3;
+    text-decoration: none;
+    
   }
 
     /* End of Work Grid */
@@ -200,4 +254,37 @@ header nav li {
   text-decoration: none;
   color: white;
   
+}
+
+.surf-report:hover,
+.led-wall:hover,
+.calculator:hover,
+.pastel-puzzels:hover,
+.run-buddy:hover {
+  filter:  opacity(80%);
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header h1 a {
+    /* this will be applied on any screen smaller than 980px */
+    color: tomato;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header h1 {
+    /* this will be applied on any screen between 768px and 575px */
+    font-size: 80px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header h1 {
+    /* this will be applied on any screen smaller than 575px */
+    font-size: 100px;
+  }
 }
