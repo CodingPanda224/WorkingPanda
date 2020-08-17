@@ -376,7 +376,7 @@ color: white;
 }
 
   }
-  
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   .subtitle {
@@ -592,7 +592,7 @@ color: white;
 
   .subtitle {
     font-size: 20px;
-    margin-top: 390px;    
+    margin-top: 350px;    
     margin-right: 75px;
     opacity: 80%;
   }
@@ -699,7 +699,7 @@ color: white;
 
   .subtitle {
     font-size: 20px;
-    margin-top: 360px;    
+    margin-top: 350px;    
     margin-right: 75px;
     opacity: 80%;
   }
@@ -771,7 +771,7 @@ color: white;
 
  .contact-links li {
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 80px;
   margin-right: 90px;
   border-bottom: hidden;
