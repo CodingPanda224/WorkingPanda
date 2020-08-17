@@ -280,7 +280,103 @@ header nav li {
     margin-top: 425px;
     margin-bottom: 20px;
   }
+
+     /*About me portion*/
+
+   .label-box {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+   
+    
   }
+
+  .about-me-container {
+    padding-left: 50px;
+    padding-right: 10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+    border-right: hidden;
+  }
+  .about-me-container h2 {   
+    width: auto;
+    font-size: 40px;
+    color: white;
+    padding: 0px;
+    text-align: center;   
+          
+    }
+  .about-me-text {
+    margin-left: 10px;
+    margin-right: 5%;
+    display: block;
+  }
+  .about-me-text img {
+    padding-left: 30%;
+  }
+
+  /*Work portion + grid*/
+
+  .work-container {
+    border-bottom: 3px solid black;
+    border-right: hidden;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .work-container h2 {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: (5,30%);
+    gap: 20px;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+/*Contact me portion*/
+.contact-me-container h2 {
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+  
+}
+.contact-me-container {
+  border-bottom: 3px solid black;
+  border-right: hidden;
+
+}
+
+.contact-links {
+  margin-left: 10px;
+  margin-right: 5%;
+  margin-top: 35px;
+
+}
+
+ .contact-links li {
+  display: block;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-right: 90px;
+  border-bottom: hidden;
+  text-align: center;
+    
+}
+
+.contact-links li a {
+text-decoration: none;
+color: white;
+
+
+}
+
+  }
+  
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
   .subtitle {
@@ -288,6 +384,101 @@ header nav li {
     margin-top: 425px;
     margin-bottom: 20px;
   }
+   /*About me portion*/
+
+   .label-box {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+   
+    
+  }
+
+  .about-me-container {
+    padding-left: 50px;
+    padding-right: 10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+    border-right: hidden;
+  }
+  .about-me-container h2 {   
+    width: auto;
+    font-size: 40px;
+    color: white;
+    padding: 0px;
+    text-align: center;   
+          
+    }
+  .about-me-text {
+    margin-left: 10px;
+    margin-right: 5%;
+    display: block;
+  }
+  .about-me-text img {
+    padding-left: 30%;
+  }
+
+  /*Work portion + grid*/
+
+  .work-container {
+    border-bottom: 3px solid black;
+    border-right: hidden;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+  .work-container h2 {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: (5,30%);
+    gap: 20px;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+/*Contact me portion*/
+.contact-me-container h2 {
+  width: 100%;
+  text-align: center;
+  padding-left: 0px;
+  
+}
+.contact-me-container {
+  border-bottom: 3px solid black;
+  border-right: hidden;
+
+}
+
+.contact-links {
+  margin-left: 10px;
+  margin-right: 5%;
+  margin-top: 35px;
+
+}
+
+ .contact-links li {
+  display: block;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-right: 90px;
+  border-bottom: hidden;
+  text-align: center;
+    
+}
+
+.contact-links li a {
+text-decoration: none;
+color: white;
+
+
+}
+
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -298,6 +489,91 @@ header nav li {
     margin-bottom: 70px;
     
   }
+
+   /*About me portion*/
+
+   .label-box {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+   
+    
+  }
+
+  .about-me-container {
+    padding-left: 50px;
+    padding-right: 10px;
+    border-bottom: 3px solid black;
+    margin-bottom: 5px;
+    border-right: hidden;
+  }
+  .about-me-container h2 {   
+    width: auto;
+    font-size: 40px;
+    color: white;
+    padding: 0 15px 10px 100px;  
+    text-align: center;   
+          
+    }
+  .about-me-text {
+    margin-left: 10px;
+    margin-right: 5%;
+    display: block;
+  }
+  .about-me-text img {
+    padding-left: 17%;
+  }
+
+  /*Work portion + grid*/
+
+  .work-container {
+    border-bottom: 3px solid black;
+    border-right: hidden;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: (5,30%);
+    gap: 20px;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+/*Contact me portion*/
+.contact-me-container {
+  border-bottom: 3px solid black;
+  border-right: hidden;
+
+}
+
+.contact-links {
+  margin-left: 10px;
+  margin-right: 5%;
+  margin-top: 35px;
+
+}
+
+ .contact-links li {
+  display: block;
+  font-size: 25px;
+  margin-left: 80px;
+  margin-right: 90px;
+  border-bottom: hidden;
+  text-align: center;
+    
+}
+
+.contact-links li a {
+text-decoration: none;
+color: white;
+
+
+}
+
+
 }
 
 
